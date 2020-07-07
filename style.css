@@ -1,0 +1,173 @@
+/*Fonts*/
+@font-face {
+font-family: Klavika;
+   src: url('fonts/klavika-light.otf');
+   src: url('fonts/klavika-light.otf') format('embedded-opentype'),
+}
+/************/
+
+body{
+	background-color:transparent; 
+	background-image:url("https://i2.wp.com/karunfreshgrocery.com/wp-content/uploads/2018/10/simple-gray-abstract-background-wi-1920x1080.jpg?ssl=1");
+}
+
+article{
+	background-color:#c2c0bc; 
+}
+
+.mainButtons{
+	margin-right:auto;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Klavika;
+	font-size:23px;
+	padding:52px 54px;
+	margin-left: 82px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 500px;
+	height: 150px;
+	text-align: center;
+	border: 0.1px solid #000000;
+
+	background-image:url("https://p0.pikrepo.com/preview/874/590/untitled.jpg");
+
+
+}
+
+.mainButtons:hover{
+	opacity: 80%;
+	border-radius: 18px;
+
+}
+
+nav{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Klavika;
+}
+
+li{
+	display: inline;
+	margin: 5px auto;	
+}
+
+h1{
+	padding: 22px;
+	letter-spacing: .25em;
+	text-shadow: -1px 1px 0 #FFFFFF, -2px 1.1px 0 #a89c79;
+	margin: 5px auto;
+}
+
+footer{
+	clear: both;
+	color:#FFFFFF;
+	text-align: center;
+	margin: 5px auto;
+}
+
+#whoweareSection{
+	background-image:url("https://c1.wallpaperflare.com/preview/367/370/553/rough-wall-background-white.jpg");
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 5px auto;
+}
+
+#whoweareH{
+	text-align: center;
+	padding: 10px;
+	font: bold 18px Klavika, Geneva, sans-serif;
+	margin: 5px auto;
+
+}
+
+figcaption{
+	padding: 10px;
+	margin-left: 250px;
+
+}
+
+#whowearaText{
+ 	margin-left: 90px;
+ 	text-align: left;
+	font-size: 20px;
+	letter-spacing: -1.2px;
+	word-spacing: 0.8px;
+	color: #000000;
+	font-weight: 300;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+
+	font-family: Klavika;
+
+
+}
+
+#whoweareImg{
+	float: left;
+	padding-top: 1px;
+	padding-left: 20px;
+	margin: 1px auto;
+	position: relative;
+   	left: 1%;
+   	top: -20px;
+
+
+}
+
+/*-- SearchPage Styles --*/
+
+.searchBarSection{
+	border: 1px solid #000000
+	padding: 20px;
+
+}
+
+.searchBar{
+	 margin-left: 280px;
+	 left: 12%;
+
+     padding: 7px;
+     font-size: 14px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     border-radius: 4px;
+     width: 360px;
+     position: relative;
+	 top: 1px;
+     
+}
+	.searchBar:focus{
+		outline: none;
+}
+
+.filterButton{
+	margin-left: 180px;
+	
+	background-color:#007bff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:12px 21px;
+	border: 0px;
+	height: 42px;
+}
+
+.filterButton:hover{
+ background-color:#006ce0;
+ border-radius:10px;
+}
+
