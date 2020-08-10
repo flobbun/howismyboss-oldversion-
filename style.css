@@ -8,22 +8,25 @@ font-family: Klavika;
 
 body{
 	background-color:transparent; 
-	background-image:url("https://i2.wp.com/karunfreshgrocery.com/wp-content/uploads/2018/10/simple-gray-abstract-background-wi-1920x1080.jpg?ssl=1");
+	background-image:url("https://p0.pxfuel.com/preview/917/815/711/building-city-architecture-modern.jpg");
+	background-size: 100%;
 }
+
 
 article{
 	background-color:#c2c0bc; 
 }
 
 .mainButtons{
+
+	overflow:hidden;
 	margin-right:auto;
 	border-radius:8px;
 	display:inline-block;
-	cursor:pointer;
 	color:#000000;
 	font-family:Klavika;
-	font-size:23px;
-	padding:52px 54px;
+	font-size:32px;
+	padding:54px 64px;
 	margin-left: 82px;
 	margin-bottom: 50px;
 	margin-top: 50px;
@@ -31,16 +34,25 @@ article{
 	height: 150px;
 	text-align: center;
 	border: 0.1px solid #000000;
-
-	background-image:url("https://p0.pikrepo.com/preview/874/590/untitled.jpg");
-
-
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	background-image:url("https://p0.pikist.com/photos/328/198/background-satin-blue-glossy-shiny-silk-polyester.jpg");
 }
 
 .mainButtons:hover{
 	opacity: 80%;
 	border-radius: 18px;
+	filter: grayscale(40%);
+	transform: scale(1.1);
 
+
+}
+
+.mainButtons:before {
+   content: "";
+}
+
+.mainButtons:before {
+   content: "";
 }
 
 nav{
@@ -55,16 +67,9 @@ li{
 	margin: 5px auto;	
 }
 
-h1{
-	padding: 22px;
-	letter-spacing: .25em;
-	text-shadow: -1px 1px 0 #FFFFFF, -2px 1.1px 0 #a89c79;
-	margin: 5px auto;
-}
-
 footer{
 	clear: both;
-	color:#FFFFFF;
+	color:#000000;
 	text-align: center;
 	margin: 5px auto;
 }
@@ -74,6 +79,14 @@ footer{
 	border: 1px solid;
 	border-radius: 10px;
 	margin: 5px auto;
+	margin-bottom: 15px;
+	width: 800px;
+	height: 310px;
+}
+
+#himbLogo{
+	width: 280px;
+	height: 280px;
 }
 
 #whoweareH{
@@ -122,6 +135,31 @@ figcaption{
 
 /*-- SearchPage Styles --*/
 
+#mainSearchSection{
+	border: 4px;
+	border-style: groove;
+	border-radius: 10px;
+	padding: 5px;
+	width: 1000px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#mainSearchSection:after{
+	z-index: -2;
+	content: "";
+	border: 2px solid;
+	position: absolute;
+	width: 1000px;
+	height: 400px;
+	right: 185px;
+	top: 120px;
+	background-color: #000;
+	opacity: .5;
+	border-radius: 15px;
+}
+
 .searchBarSection{
 	border: 1px solid #000000
 	padding: 20px;
@@ -129,22 +167,23 @@ figcaption{
 }
 
 .searchBar{
-	 margin-left: 280px;
-	 left: 12%;
-
-     padding: 7px;
-     font-size: 14px;
-     border-width: 1px;
-     border-color: #CCCCCC;
-     background-color: #FFFFFF;
-     color: #000000;
-     border-style: solid;
-     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
-     text-shadow: 0px 0px 5px rgba(66,66,66,.75);
-     border-radius: 4px;
-     width: 360px;
-     position: relative;
-	 top: 1px;
+	right: -200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family:Klavika;
+    padding: 7px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    border-radius: 4px;
+    width: 360px;
+    position: relative;
+	top: 1px;
      
 }
 	.searchBar:focus{
@@ -152,22 +191,54 @@ figcaption{
 }
 
 .filterButton{
-	margin-left: 180px;
-	
+
 	background-color:#007bff;
 	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:Klavika;
 	font-size:14px;
-	padding:12px 21px;
-	border: 0px;
-	height: 42px;
+	padding:8px;	
+	border: 1px;
+	border-color: transparent;
+	height: 32px;
+	border-style: solid;
+
 }
 
 .filterButton:hover{
- background-color:#006ce0;
+ opacity: 80%;
+ color:#000000;
  border-radius:10px;
+}
+
+.sendSearchButton{
+ 	margin-left: 250px;
+	background-color:#007bff;
+	border-radius:8px;
+	display:inline-block;
+	font-size:14px;
+	padding:8px
+	border: 1px;
+	border-color: transparent;
+	height: 32px;
+	border-style: solid;
+	box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.sendSearchButton:hover{
+	opacity: 80%;
+	border-radius:10px;
+}
+
+/*-- MakeReview Styles --*/
+
+#ff-compose{
+	border: 2px solid;
+	background-image:url("https://c1.wallpaperflare.com/preview/367/370/553/rough-wall-background-white.jpg");
+	border-right: transparent;
+	border-radius: 15px;
+	border-width: 1px;
+	padding: 6px;
 }
 
